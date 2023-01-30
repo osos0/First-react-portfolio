@@ -1,0 +1,18 @@
+#lis {
+  margin-right: 10px;
+  display: flex;
+  justify-content: end;
+  font-weight: bold;
+  color: white;
+}
+.navbar-nav a {
+  color: white;
+}
+
+.navbar-brand a {
+  color: var(--main-txt-color);
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 4px;
+}
