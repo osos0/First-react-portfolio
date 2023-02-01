@@ -1,0 +1,125 @@
+import { Component, Fragment } from "react";
+import "./portfolio.css";
+
+class Portfolio extends Component {
+  render() {
+    return (
+      <Fragment>
+        <section>
+          <h3 className="myser">
+            My <span>PORTFOLIO</span>
+            <hr />
+          </h3>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-4 col-md-6 col-sm-12">
+                <div className="row">
+                  <div className="col-10 PorCon">
+                    <img src={require("../img/1.jpg")} alt="panana" />
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 col-sm-12">
+                <div className="row">
+                  <div className="col-10 PorCon">
+                    <img src={require("../img/1.jpg")} alt="panana" />
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 col-sm-12">
+                <div className="row">
+                  <div className="col-10 PorCon">
+                    <img src={require("../img/1.jpg")} alt="panana" />
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 col-sm-12">
+                <div className="row">
+                  <div className="col-10 PorCon">
+                    <img src={require("../img/1.jpg")} alt="panana" />
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 col-sm-12">
+                <div className="row">
+                  <div className="col-10 PorCon">
+                    <img src={require("../img/1.jpg")} alt="panana" />
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 col-sm-12">
+                <div className="row">
+                  <div className="col-10 PorCon">
+                    <img src={require("../img/1.jpg")} alt="panana" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* <section>
+          <div className="container"></div>
+        </section> */}
+        <section>
+          <div className="row counConf">
+            <div className="col-lg-3 col-md-6 col-sm-1">
+              <div className="col-11 counConchild">
+                <h3>90+</h3>
+                <h5>Successul Projects</h5>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-1">
+              <div className="col-11 counConchild">
+                <h3>510K</h3>
+                <h5>Successul Projects</h5>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-1">
+              <div className="col-11 counConchild">
+                <h3>90+</h3>
+                <h5>Successul Projects</h5>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-1">
+              <div className="col-11 counConchild">
+                <h3>90+</h3>
+                <h5>Successul Projects</h5>
+              </div>
+            </div>
+          </div>{" "}
+        </section>
+      </Fragment>
+    );
+  }
+}
+
+export default Portfolio;
+
+{
+  /* <div className="row counConf">
+<div className="col-lg-3 col-md-6 col-sm-1">
+  <div className="col-11 counConchild">
+    <h3>90+</h3>
+    <h5>Successul Projects</h5>
+  </div>
+</div>
+<div className="col-lg-3 col-md-6 col-sm-1">
+  <div className="col-11 counConchild">
+    <h3>510K</h3>
+    <h5>Successul Projects</h5>
+  </div>
+</div>
+<div className="col-lg-3 col-md-6 col-sm-1">
+  <div className="col-11 counConchild">
+    <h3>90+</h3>
+    <h5>Successul Projects</h5>
+  </div>
+</div>
+<div className="col-lg-3 col-md-6 col-sm-1">
+  <div className="col-11 counConchild">
+    <h3>90+</h3>
+    <h5>Successul Projects</h5>
+  </div>
+</div>
+</div> */
+}

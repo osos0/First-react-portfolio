@@ -1,8 +1,30 @@
-* {
-  background-color: #1f2235;
-}
-
 :root {
   --main-bg-color: #1f2235;
   --main-txt-color: #ef464c;
+}
+* {
+  color: white;
+  background-color: var(--main-bg-color);
+}
+
+i {
+  border: 1px solid var(--main-txt-color);
+  font-size: 25px;
+  border-radius: 100%;
+  padding: 20px 20px;
+  margin: 10px;
+}
+
+button {
+  color: white;
+  font-size: 15px;
+  background-color: var(--main-txt-color);
+  border: transparent;
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+button:hover {
+  background-color: white;
+  color: var(--main-txt-color);
+  transition: 0.5s ease-in-out;
 }

@@ -7,18 +7,6 @@
 .welcomeCon h3 {
   color: var(--main-txt-color);
 }
-.welcomeCon h2 {
-  color: white;
-}
-.welcomeCon h2 {
-  color: white;
-}
-.welcomeCon p {
-  color: white;
-}
-.welcomeCon div i {
-  color: var(--main-txt-color);
-}
 
 .linCon {
   display: flex;
@@ -26,13 +14,15 @@
   align-items: center;
 }
 
-.linCon i {
-  border: 1px solid var(--main-txt-color);
-  font-size: 25px;
-  border-radius: 100%;
-  padding: 20px 20px;
-  margin: 10px;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
+.AboutCon {
+  margin-top: 100px;
+}
+
+.AboutConRi {
+  margin: auto;
+}
+
+.AboutConRi span {
+  color: red;
+  opacity: 0;
 }

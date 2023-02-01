@@ -1,0 +1,32 @@
+.myser {
+  text-align: center;
+  margin: 50px;
+}
+.myser span {
+  color: var(--main-txt-color);
+}
+
+.myser hr {
+  margin: 20px auto;
+  width: 100px;
+  color: var(--main-txt-color);
+}
+.PorCon {
+  margin: 50px auto;
+}
+.PorCon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.PorCon img {
+  max-width: 100%;
+}
+
+.counConf {
+  border: 1px solid red;
+  overflow: hidden;
+}
