@@ -20,9 +20,9 @@ class Header extends Component {
               <Nav.Link href="#">HOME</Nav.Link>
               <Nav.Link href="#about">ABOUT</Nav.Link>
               <Nav.Link href="#SERVICE">SERVICE</Nav.Link>
-              <Nav.Link href="/">PORTFOLIO</Nav.Link>
-              <Nav.Link href="/">BLOG</Nav.Link>
-              <Nav.Link href="/">CONTACT</Nav.Link>
+              <Nav.Link href="#PORTFOLIO">PORTFOLIO</Nav.Link>
+              <Nav.Link href="#Blog">BLOG</Nav.Link>
+              <Nav.Link href="#contactUs">CONTACT</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

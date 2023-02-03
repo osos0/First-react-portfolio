@@ -26,3 +26,13 @@
   color: red;
   opacity: 0;
 }
+
+.myinfo {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.myinfo > a {
+  margin-bottom: 20px;
+}

@@ -1,10 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Festive&family=Fira+Sans&family=Heebo:wght@800&family=Mulish:wght@700&family=Tajawal:wght@300;400;500&family=Work+Sans:ital,wght@0,700;0,800;1,800&display=swap");
+
 :root {
   --main-bg-color: #1f2235;
   --main-txt-color: #ef464c;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   color: white;
   background-color: var(--main-bg-color);
+  background-image: url("../src/componants/img/bg-texture.png");
+  box-sizing: border-box;
+  outline: none;
+  /* text-decoration: none; */
+  font-family: "Bebas Neue", cursive;
+  font-family: "Festive", cursive;
+  font-family: "Fira Sans", sans-serif;
+  font-family: "Heebo", sans-serif;
+  font-family: "Mulish", sans-serif;
+  font-family: "Tajawal", sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 
 i {
@@ -23,8 +41,42 @@ button {
   padding: 10px 20px;
   border-radius: 3px;
 }
+
 button:hover {
   background-color: white;
   color: var(--main-txt-color);
   transition: 0.5s ease-in-out;
 }
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+input {
+  outline: none;
+}
+
+/* section {
+  margin-top: 50px;
+} */
+
+/* *********************************** */
+/* I will change this css pattarn for ever lik that below */
+/* we should to insted of class name to that below */
+.myser {
+  text-align: center;
+  margin: 50px;
+}
+.myser > span {
+  color: var(--main-txt-color);
+}
+
+.myser > hr {
+  margin: 20px auto;
+  width: 100px;
+  color: var(--main-txt-color);
+}
+
+/* ********************************** */

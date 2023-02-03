@@ -1,16 +1,3 @@
-.myser {
-  text-align: center;
-  margin: 50px;
-}
-.myser span {
-  color: var(--main-txt-color);
-}
-
-.myser hr {
-  margin: 20px auto;
-  width: 100px;
-  color: var(--main-txt-color);
-}
 .ExpCon {
   margin: 50px auto;
 }

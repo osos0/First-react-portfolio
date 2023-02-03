@@ -1,6 +1,8 @@
 import { Component, Fragment } from "react";
 
 import "./About.css";
+import cv from "../img/cv_Ossama_Magdy_Nessim.pdf";
+import { BsLinkedin } from "react-icons/bs";
 
 class About extends Component {
   render() {
@@ -18,10 +20,13 @@ class About extends Component {
                   design and many more...
                 </p>
                 <div className="linCon">
-                  <i class="fa-brands fa-facebook"></i>
-                  <i class="fa-brands fa-twitter"></i>
-                  <i class="fa-brands fa-linkedin"></i>
-                  <i class="fa-brands fa-github"></i>
+                  <a href="https://www.linkedin.com/feed/">
+                    <BsLinkedin />
+                  </a>
+                  <i className="fa-brands fa-facebook"></i>
+                  <i className="fa-brands fa-twitter"></i>
+                  <i className="fa-brands fa-linkedin"></i>
+                  <i className="fa-brands fa-github"></i>
                 </div>
               </div>
               <div className="col-md-5">
@@ -60,7 +65,14 @@ class About extends Component {
                 <p>
                   Email<span>-----------</span> : Example@gmail.com
                 </p>
-                <button type="">Download CV</button>
+                <div className="myinfo">
+                  <a href={cv} download>
+                    <button>Download CV</button>
+                  </a>
+                  <a href="#contactUs">
+                    <button>Let's Talk</button>
+                  </a>
+                </div>
               </div>
             </div>
           </div>

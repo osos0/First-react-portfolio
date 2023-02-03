@@ -5,7 +5,7 @@ class Portfolio extends Component {
   render() {
     return (
       <Fragment>
-        <section>
+        <section id="PORTFOLIO">
           <h3 className="myser">
             My <span>PORTFOLIO</span>
             <hr />

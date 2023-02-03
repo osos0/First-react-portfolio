@@ -11,6 +11,7 @@
 
 .navbar-brand a {
   color: var(--main-txt-color);
+
   font-size: 40px;
   font-weight: bold;
   text-decoration: none;
