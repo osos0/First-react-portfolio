@@ -1,0 +1,26 @@
+.cardCon {
+  overflow: hidden;
+  box-shadow: 0 1px 30px rgba(255, 255, 255, 15%);
+}
+
+.cardImg img {
+  max-width: 100%;
+  min-height: 100%;
+}
+
+.cardCon h4 {
+  max-width: 100%;
+  margin: 15px 10px;
+}
+.cardCon p {
+  margin: 15px;
+}
+
+.cardCon span {
+  color: var(--main-txt-color);
+}
+
+.cardCon:hover h4 {
+  color: var(--main-txt-color);
+  transition: 0.7s ease-in-out;
+}

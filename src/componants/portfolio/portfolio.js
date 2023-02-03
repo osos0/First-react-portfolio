@@ -14,79 +14,87 @@ class Portfolio extends Component {
             <div className="row">
               <div className="col-lg-4 col-md-6 col-sm-12">
                 <div className="row">
-                  <div className="col-10 PorCon">
-                    <img src={require("../img/1.jpg")} alt="panana" />
+                  <div className="col-11 PorCon">
+                    <img src={require("../img/11.jpg")} alt="panana" />
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 col-sm-12">
                 <div className="row">
-                  <div className="col-10 PorCon">
-                    <img src={require("../img/1.jpg")} alt="panana" />
+                  <div className="col-11 PorCon">
+                    <img src={require("../img/11.jpg")} alt="panana" />
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 col-sm-12">
                 <div className="row">
-                  <div className="col-10 PorCon">
-                    <img src={require("../img/1.jpg")} alt="panana" />
+                  <div className="col-11 PorCon">
+                    <img src={require("../img/11.jpg")} alt="panana" />
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 col-sm-12">
                 <div className="row">
-                  <div className="col-10 PorCon">
-                    <img src={require("../img/1.jpg")} alt="panana" />
+                  <div className="col-11 PorCon">
+                    <img src={require("../img/11.jpg")} alt="panana" />
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 col-sm-12">
                 <div className="row">
-                  <div className="col-10 PorCon">
-                    <img src={require("../img/1.jpg")} alt="panana" />
+                  <div className="col-11 PorCon">
+                    <img src={require("../img/11.jpg")} alt="panana" />
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 col-sm-12">
                 <div className="row">
-                  <div className="col-10 PorCon">
-                    <img src={require("../img/1.jpg")} alt="panana" />
+                  <div className="col-11 PorCon">
+                    <img src={require("../img/11.jpg")} alt="panana" />
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        {/* <section>
-          <div className="container"></div>
-        </section> */}
+
         <section>
-          <div className="row counConf">
-            <div className="col-lg-3 col-md-6 col-sm-1">
-              <div className="col-11 counConchild">
-                <h3>90+</h3>
-                <h5>Successul Projects</h5>
+          <div className="container">
+            <div className="row counConf">
+              <div className="col-lg-3 col-md-6 col-sm-1">
+                <div className="row">
+                  <div className="col-11 counConchild">
+                    <h3>90+</h3>
+                    <h5>Successul Projects</h5>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 col-sm-1">
+                <div className="row">
+                  <div className="col-11 counConchild">
+                    <h3>510K</h3>
+                    <h5>Successul Projects</h5>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 col-sm-1">
+                <div className="row">
+                  <div className="col-11 counConchild">
+                    <h3>510K</h3>
+                    <h5>Successul Projects</h5>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 col-sm-1">
+                <div className="row">
+                  <div className="col-11 counConchild">
+                    <h3>510K</h3>
+                    <h5>Successul Projects</h5>
+                  </div>
+                </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-sm-1">
-              <div className="col-11 counConchild">
-                <h3>510K</h3>
-                <h5>Successul Projects</h5>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-1">
-              <div className="col-11 counConchild">
-                <h3>90+</h3>
-                <h5>Successul Projects</h5>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-1">
-              <div className="col-11 counConchild">
-                <h3>90+</h3>
-                <h5>Successul Projects</h5>
-              </div>
-            </div>
-          </div>{" "}
+          </div>
         </section>
       </Fragment>
     );
@@ -94,32 +102,3 @@ class Portfolio extends Component {
 }
 
 export default Portfolio;
-
-{
-  /* <div className="row counConf">
-<div className="col-lg-3 col-md-6 col-sm-1">
-  <div className="col-11 counConchild">
-    <h3>90+</h3>
-    <h5>Successul Projects</h5>
-  </div>
-</div>
-<div className="col-lg-3 col-md-6 col-sm-1">
-  <div className="col-11 counConchild">
-    <h3>510K</h3>
-    <h5>Successul Projects</h5>
-  </div>
-</div>
-<div className="col-lg-3 col-md-6 col-sm-1">
-  <div className="col-11 counConchild">
-    <h3>90+</h3>
-    <h5>Successul Projects</h5>
-  </div>
-</div>
-<div className="col-lg-3 col-md-6 col-sm-1">
-  <div className="col-11 counConchild">
-    <h3>90+</h3>
-    <h5>Successul Projects</h5>
-  </div>
-</div>
-</div> */
-}

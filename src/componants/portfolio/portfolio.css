@@ -27,6 +27,17 @@
 }
 
 .counConf {
-  border: 1px solid red;
   overflow: hidden;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.counConchild {
+  margin: auto;
+  padding: 15px 0;
+  box-shadow: 0px 1px 30px rgba(255, 255, 255, 20%);
+}
+
+.counConchild h3 {
+  color: var(--main-txt-color);
 }
