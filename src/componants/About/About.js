@@ -23,10 +23,24 @@ class About extends Component {
                   {/* <a href="https://www.linkedin.com/feed/">
                     <BsLinkedin />
                   </a> */}
-                  <i className="fa-brands fa-facebook"></i>
-                  <i className="fa-brands fa-twitter"></i>
-                  <i className="fa-brands fa-linkedin"></i>
-                  <i className="fa-brands fa-github"></i>
+                  <a href="https://www.facebook.com" target="_blank">
+                    <i className="fa-brands fa-facebook"></i>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/ossama-magdy-6b8a3b263/"
+                    target="_blank"
+                  >
+                    <i className="fa-brands fa-twitter"></i>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/ossama-magdy-6b8a3b263/"
+                    target="_blank"
+                  >
+                    <i className="fa-brands fa-linkedin"></i>
+                  </a>
+                  <a href="https://github.com/osos0" target="_blank">
+                    <i className="fa-brands fa-github"></i>
+                  </a>
                 </div>
               </div>
               <div className="col-md-5">
