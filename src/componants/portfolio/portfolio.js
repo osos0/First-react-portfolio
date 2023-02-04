@@ -95,6 +95,9 @@ class Portfolio extends Component {
               </div>
             </div>
           </div>
+          <a id="upbtn" href="#nave">
+            <button>UP</button>
+          </a>
         </section>
       </Fragment>
     );

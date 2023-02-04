@@ -37,3 +37,9 @@
 .counConchild h3 {
   color: var(--main-txt-color);
 }
+
+#upbtn {
+  position: fixed;
+  right: 2.5%;
+  bottom: 5%;
+}

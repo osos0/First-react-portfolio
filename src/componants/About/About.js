@@ -2,7 +2,7 @@ import { Component, Fragment } from "react";
 
 import "./About.css";
 import cv from "../img/cv_Ossama_Magdy_Nessim.pdf";
-import { BsLinkedin } from "react-icons/bs";
+// import { BsLinkedin } from "react-icons/bs";
 
 class About extends Component {
   render() {
@@ -20,9 +20,9 @@ class About extends Component {
                   design and many more...
                 </p>
                 <div className="linCon">
-                  <a href="https://www.linkedin.com/feed/">
+                  {/* <a href="https://www.linkedin.com/feed/">
                     <BsLinkedin />
-                  </a>
+                  </a> */}
                   <i className="fa-brands fa-facebook"></i>
                   <i className="fa-brands fa-twitter"></i>
                   <i className="fa-brands fa-linkedin"></i>
