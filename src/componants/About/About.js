@@ -67,15 +67,17 @@ class About extends Component {
                   tellus ut urna volutpat posuere quis consectetur quam.
                 </p>
                 <p>
-                  Name<span>------------</span>: Ossama Magdy
+                  Name<span>-----------</span>: Ossama Magdy
                 </p>
                 <p>
-                  Age<span>--------------</span>: 36
+                  Age<span>-------------</span>: 36
                 </p>
                 <p>
                   Address<span>---------</span>: Egypt, Cairo{" "}
                 </p>
-                <p>Phone Number : +00 111-222-3333</p>
+                <p>
+                  Phone Number<span>--</span> : +00 111-222-3333
+                </p>
                 <p>
                   Email<span>-----------</span> : Example@gmail.com
                 </p>
