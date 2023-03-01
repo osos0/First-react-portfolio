@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Using-React/static/css/main.ce717b73.css",
+    "main.js": "/Portfolio-Using-React/static/js/main.e0cf7e03.js",
+    "static/media/cv_Ossama_Magdy_Nessim.pdf": "/Portfolio-Using-React/static/media/cv_Ossama_Magdy_Nessim.1676dcdc83730930d888.pdf",
+    "static/media/banner.jpg": "/Portfolio-Using-React/static/media/banner.2f216b11979a4fa52da5.jpg",
+    "static/media/about.jpg": "/Portfolio-Using-React/static/media/about.c2e9ddb7b6d0c4469c9a.jpg",
+    "static/media/11.jpg": "/Portfolio-Using-React/static/media/11.b7681dab4dbd460dc689.jpg",
+    "static/media/3.jpg": "/Portfolio-Using-React/static/media/3.47675cf5cd3c82dd138d.jpg",
+    "static/media/2.jpg": "/Portfolio-Using-React/static/media/2.341a782579569678ac96.jpg",
+    "static/media/1.jpg": "/Portfolio-Using-React/static/media/1.5ce3f01b00a0a1ce09df.jpg",
+    "index.html": "/Portfolio-Using-React/index.html",
+    "main.ce717b73.css.map": "/Portfolio-Using-React/static/css/main.ce717b73.css.map",
+    "main.e0cf7e03.js.map": "/Portfolio-Using-React/static/js/main.e0cf7e03.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce717b73.css",
+    "static/js/main.e0cf7e03.js"
+  ]
+}
