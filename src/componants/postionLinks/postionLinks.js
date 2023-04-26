@@ -6,7 +6,7 @@ class PostionLinks extends Component {
     return (
       <div id="hello">
         <i className="fa-brands fa-facebook"></i>
-        <i class="fa-light fa-house-user"></i>
+        <i className="fa-light fa-house-user"></i>
         <i className="fa-brands fa-facebook"></i>
       </div>
     );

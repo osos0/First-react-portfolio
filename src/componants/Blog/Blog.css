@@ -19,3 +19,7 @@
   color: var(--main-txt-color);
   transition: 0.7s ease-in-out;
 }
+
+.claro {
+  color: green;
+}

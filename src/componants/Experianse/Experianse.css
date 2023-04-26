@@ -9,3 +9,8 @@
   justify-content: center;
   text-align: center;
 }
+
+.activee {
+  /* transform: translateX(-1500px); */
+  background-color: red;
+}
