@@ -1,19 +1,7 @@
 // import { Component, Fragment } from "react";
 import "./Blog.css";
 
-import { useState } from "react";
-
 function Blog() {
-  const [Trans, setTrans] = useState("black");
-  // const [Trans, setTrans] = useState("500");
-  const cc = "red";
-  function colorChange() {
-    setTrans("red");
-    // document.querySelector(".testo").style.color = "yellow";
-    // document.querySelector(".testo").style.color = Trans;
-    // document.querySelector(".testo").style.color = Trans;
-    // document.querySelector(".colllll").classList.toggle("claro");
-  }
   // console.log(Trans, setTrans);
   return (
     <>
