@@ -10,8 +10,13 @@
 
 .linCon {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+.linCon svg {
+  font-size: 40px;
 }
 
 .AboutCon {
