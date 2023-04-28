@@ -61,7 +61,7 @@ class Portfolio extends Component {
         <section>
           <div className="container">
             <div className="row counConf">
-              <div className="col-lg-3 col-md-6 col-sm-1">
+              <div className="col-lg-3 col-md-6 col-sm-6 mt-2">
                 <div className="row">
                   <div className="col-11 counConchild">
                     <h3>90+</h3>
@@ -69,7 +69,7 @@ class Portfolio extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-6 col-sm-1">
+              <div className="col-lg-3 col-md-6 col-sm-6 mt-2">
                 <div className="row">
                   <div className="col-11 counConchild">
                     <h3>510K</h3>
@@ -77,7 +77,7 @@ class Portfolio extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-6 col-sm-1">
+              <div className="col-lg-3 col-md-6 col-sm-6 mt-2">
                 <div className="row">
                   <div className="col-11 counConchild">
                     <h3>510K</h3>
@@ -85,7 +85,7 @@ class Portfolio extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-6 col-sm-1">
+              <div className="col-lg-3 col-md-6 col-sm-6 mt-2">
                 <div className="row">
                   <div className="col-11 counConchild">
                     <h3>510K</h3>
